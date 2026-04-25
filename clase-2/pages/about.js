@@ -17,7 +17,7 @@ class MiAbout extends HTMLElement {
                 }
             </style>
             <div class="fondo">
-                <img src="https://art.pixilart.com/730e11269018b08.png">
+                <img src="https://wallpapers.com/images/hd/south-park-cast-in-lake-art-afe55ra66mlcgl5a.jpg">
             </div>
             <div class="mision">
                 <h1>Quienes Somos</h1>

@@ -24,7 +24,7 @@ class MiHeader extends HTMLElement {
                 }
         </style>
         <header>
-            <h1>Aplicacion de Galeria</h1>
+            <h1>Chōsa Heidan</h1>
                 <nav>
                     <a href="#/">Inicio</a>
                     <a href="#/gallery">Galeria</a>

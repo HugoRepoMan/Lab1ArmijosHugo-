@@ -6,7 +6,23 @@ class MiHome extends HTMLElement {
 
     connectedCallback() {
         this.shadowRoot.innerHTML = `
-            <h2>Bievenido a Home</h2>
+            <style>
+                .fondo img {
+                    display: block;
+                    width: 100%;
+                    object-fit: cover;
+                }
+                .mision {
+                    padding: 20px;
+                }
+            </style>
+            <div class="fondo">
+                <img src="https://wallpapers.com/images/hd/aot-wings-of-freedom-2560-x-1600-wallpaper-gp5k4vxtqcca8mjq.jpg">
+            </div>
+            <div class="mision">
+                <h1>Bienvenido</h1>
+                <p>Las alas de la libertad, nos llevaran lejos </p>
+            </div>
         `;
     }
 }

@@ -13,7 +13,7 @@ const router = () => {
             app.innerHTML = `<mi-about></mi-about>`;
             break;
         case "#/mision":
-            app.innerHTML = `<mi-mision></mi-mision>`;
+            app.innerHTML = `<mi-mision></mi-mision >`;
             break;
         default:
             app.innerHTML = `<mi-home></mi-home>`;
